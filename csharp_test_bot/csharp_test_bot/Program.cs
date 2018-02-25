@@ -56,6 +56,8 @@ namespace csharp_test_bot
         {
             var message = messageEventArgs.Message;
 
+            Console.WriteLine($"MessageReceived: Type={message.Type}, From='{message.From.Id}', Text='{message.Text}', ");
+
             if (message == null || message.Type != MessageType.Text) return;
 
             //IReplyMarkup keyboard = new ReplyKeyboardRemove();

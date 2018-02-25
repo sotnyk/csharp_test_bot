@@ -6,16 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Files\Choco.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Files\Choco.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Telegram.Bot" Version="14.0.0-rc-367" />
   </ItemGroup>
 
